@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">BomPreço</string>
+    <string name="facebook_app_id">418248051957570</string>
+    <string name="fb_login_protocol_scheme">fb418248051957570</string>
+    <string name="cancel_login">Login Cancelado</string>
+    <string name="error_login">Erro ao Logar</string>
+    <string name="firebase_error_login">Erro ao Logar</string>
+    <string name="not_firebase_auth">erro firebase: </string>
+    <string name="not_log_in">erro ao logar</string>
+    <string name="not_close_session">nao fechou</string>
+    <string name="minimum_password">senha curta</string>
+    <string name="auth_failed">Conta nao existe</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="map">AIzaSyDx0-1NCzK9BceTcGGIFauC1TCX6TNY6J8</string>
+</resources>

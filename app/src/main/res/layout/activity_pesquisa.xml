@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    android:fitsSystemWindows="true">
+
+    <TextView
+        android:id="@+id/textV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PRODUTO:"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewNome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textV"
+        android:layout_alignBottom="@+id/textV"
+        android:layout_toEndOf="@+id/textV"
+        android:paddingLeft="5dp"
+        android:text="NOME_PRODUTO"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/textm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textV"
+        android:paddingTop="5dp"
+        android:text="MARCA:"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewMarca"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewNome"
+        android:layout_toEndOf="@+id/textm"
+        android:paddingLeft="5dp"
+        android:paddingTop="5dp"
+        android:text="NOME_MARCA"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textVV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textV"
+        android:layout_below="@+id/textViewMarca"
+        android:paddingTop="5dp"
+        android:text="VALOR: R$"
+        android:textColor="@android:color/black"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/textViewValor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewMarca"
+        android:layout_toEndOf="@+id/textVV"
+        android:paddingLeft="5dp"
+        android:paddingTop="5dp"
+        android:text="VALOR_PRODUTO"
+        android:textColor="@android:color/black"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textVV"
+        android:layout_below="@+id/textViewValor"
+        android:paddingTop="5dp"
+        android:text="SUPERMERCADO:"
+        android:textColor="@android:color/black"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewSupermecado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewValor"
+        android:layout_toEndOf="@+id/textViewS"
+        android:paddingLeft="5dp"
+        android:paddingTop="5dp"
+        android:text="NOME_SUPERMERCADO"
+        android:textColor="@android:color/black"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewLo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewSupermecado"
+        android:layout_toEndOf="@+id/space2"
+        android:paddingTop="5dp"
+        android:text="ENDEREÇO:"
+        android:textColor="@android:color/black"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewLocalizar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/textViewSupermecado"
+        android:layout_marginTop="27dp"
+        android:text="LOCALIZAR_LOCAL"
+        android:textColor="@android:color/black"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="20dp"
+        android:id="@+id/space2" />
+
+
+</RelativeLayout>

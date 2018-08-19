@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "947657064546",
+    "firebase_url": "https://supermercado-c1be1.firebaseio.com",
+    "project_id": "supermercado-c1be1",
+    "storage_bucket": "supermercado-c1be1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:947657064546:android:903989e4efee0da2",
+        "android_client_info": {
+          "package_name": "com.example.wazesupermarket.wazesupermarket"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "947657064546-g5uk55mkkimoa5a0hc7ns87ad9ru0bi7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.wazesupermarket.wazesupermarket",
+            "certificate_hash": "72b60f961e60df948bdb403520d6a9015d165987"
+          }
+        },
+        {
+          "client_id": "947657064546-7vhu3c8sv9ih58t3f5st4v2nu0d6pugj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4Ma4PCCFi2-vjrzL46JW9A_pdodB0wSk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "947657064546-7vhu3c8sv9ih58t3f5st4v2nu0d6pugj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

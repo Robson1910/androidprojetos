@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    android:fitsSystemWindows="true"
+    tools:context="com.example.wazesupermarket.wazesupermarket.LoginActivity">
+
+
+    <LinearLayout
+        android:id="@+id/login_details"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="1"
+        android:layout_marginTop="80dp"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true">
+
+
+        <Button
+            android:id="@+id/button_sign_up"
+            style="?android:textAppearanceSmall"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_above="@+id/loginButton"
+            android:layout_alignEnd="@+id/signInButton"
+            android:layout_alignStart="@+id/signInButton"
+            android:layout_weight="1"
+            android:background="#0084ff"
+            android:text="Entrar com Email"
+            android:textColor="@android:color/background_light"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <Space
+            android:layout_width="1dp"
+            android:layout_height="20dp" />
+
+        <com.facebook.login.widget.LoginButton
+            android:id="@+id/loginButton"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/signInButton"
+            android:layout_alignEnd="@+id/signInButton"
+            android:layout_alignStart="@+id/signInButton"
+            android:layout_weight="1"
+            android:background="#0084ff"
+            android:paddingBottom="10dp"
+            android:textColorLink="@android:color/background_light"
+            android:textSize="18sp" />
+
+        <Space
+            android:layout_width="1dp"
+            android:layout_height="20dp" />
+
+        <com.google.android.gms.common.SignInButton
+            android:id="@+id/signInButton"
+            android:layout_width="317dp"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:background="#0084ff" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="368dp"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="33dp"
+        app:srcCompat="@drawable/logosinicial" />
+
+</RelativeLayout>
